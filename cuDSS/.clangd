@@ -1,4 +1,8 @@
 CompileFlags:
+  Add:
+    - -Wall
+    - -Wextra
+    - -Wunused-variable
   Remove:
     - -forward-unknown-to-host-compiler
     - --generate-code=*
